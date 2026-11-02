@@ -1,0 +1,27 @@
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Allow a safe example configuration
+!.env.example
+
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Editor settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
