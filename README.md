@@ -2,9 +2,9 @@
 <div align="center">
 
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/convoai-logo-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="assets/convoai-logo-light.png">
-    <img src="assets/convoai-logo-light.png" alt="ConvoAI" width="460">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/logo-primary-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="assets/logo-primary-light.png">
+    <img src="assets/logo-primary-light.png" alt="ConvoAI — AI-powered conversational assistant" width="460">
   </picture>
 
   <br/>
@@ -159,25 +159,30 @@ SQLite database (database.py)
 ```text
 ConvoAI/
 ├── assets/
-│   ├── convoai-icon.png          # Application icon
-│   ├── convoai-logo-black.png    # Black logo variation
-│   ├── convoai-logo-outline.png  # Outline logo variation
-│   ├── convoai-logo-light.png    # Logo for light backgrounds
-│   └── convoai-logo-dark.png     # Logo for dark backgrounds
+│   ├── Glossy Orange Chat Loop Emblem.png
+│   ├── Rounded Orange Chat Ribbon Logo.png
+│   ├── logo-black.png
+│   ├── logo-outline.png
+│   ├── logo-primary-dark.png
+│   └── logo-primary-light.png
+│
 ├── static/
-│   └── index.html                # Browser-based chat interface
-├── main.py                       # FastAPI app and HTTP endpoints
-├── chat_engine.py                # Conversation orchestration and context handling
-├── llm_client.py                 # Gemini client integration
-├── database.py                   # SQLite persistence layer
-├── errors.py                     # Application error definitions
-├── test_gemini.py                # Gemini connectivity test
-├── test_chat_engine.py           # Multi-turn conversation tests
-├── test_context.py               # Context management tests
-├── test_fallback.py              # Summarization fallback tests
-├── test_database.py              # Database tests
-├── test_persistence.py           # Persistence and restoration tests
-├── .env.example                  # Example environment configuration
+│   └── index.html
+│
+├── main.py
+├── chat_engine.py
+├── llm_client.py
+├── database.py
+├── errors.py
+│
+├── test_gemini.py
+├── test_chat_engine.py
+├── test_context.py
+├── test_fallback.py
+├── test_database.py
+├── test_persistence.py
+│
+├── .env.example
 ├── .gitignore
 └── README.md
 ```
@@ -454,9 +459,9 @@ No license has been added to this repository yet. Until a license is selected, r
 <div align="center">
 
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/convoai-logo-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="assets/convoai-logo-light.png">
-    <img src="assets/convoai-logo-light.png" alt="ConvoAI" width="190">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/logo-primary-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="assets/logo-primary-light.png">
+    <img src="assets/logo-primary-light.png" alt="ConvoAI" width="190">
   </picture>
 
   <br/>
