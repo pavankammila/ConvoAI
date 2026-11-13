@@ -56,6 +56,8 @@
   [**🔌 API**](#-api-endpoints) &nbsp;•&nbsp;
   [**🧪 Testing**](#-testing)
 
+🚀 **Visit ConvoAI:** https://convoai-ev4q.onrender.com/
+
 </div>
 
 ---
@@ -439,6 +441,8 @@ Contributions, suggestions and bug reports are welcome.
   <h3>Pavan Kumar</h3>
 
   B.Tech Computer Science & Engineering — AI & ML
+  
+🚀 **Visit ConvoAI:** https://convoai-ev4q.onrender.com/
 
   <br/>
 
