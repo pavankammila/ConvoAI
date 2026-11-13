@@ -1,36 +1,62 @@
+
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/convoai-logo-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="assets/convoai-logo-light.png">
-  <img src="assets/convoai-logo-light.png" alt="ConvoAI" width="520">
-</picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/convoai-logo-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="assets/convoai-logo-light.png">
+    <img src="assets/convoai-logo-light.png" alt="ConvoAI" width="460">
+  </picture>
 
-<br/>
+  <br/>
 
-### Conversations that remember. Intelligence that feels personal.
+  <h3>Conversations that remember. Intelligence that feels personal.</h3>
 
-An AI-powered conversational assistant built with **Google Gemini**, **FastAPI**, **Python** and **SQLite**.
+  <p>
+    An AI-powered conversational assistant built with
+    <strong>Google Gemini</strong>, <strong>FastAPI</strong>,
+    <strong>Python</strong> and <strong>SQLite</strong>.
+  </p>
 
-<br/>
+  <br/>
 
-[![Python](https://img.shields.io/badge/Python-3.13-FF7A00?style=for-the-badge&logo=python&logoColor=white&labelColor=0D0D0D)](https://www.python.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-Backend-FF7A00?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=0D0D0D)](https://fastapi.tiangolo.com/)
-[![Gemini](https://img.shields.io/badge/Google-Gemini-FF7A00?style=for-the-badge&logo=googlegemini&logoColor=white&labelColor=0D0D0D)](https://ai.google.dev/)
-[![SQLite](https://img.shields.io/badge/SQLite-Database-FF7A00?style=for-the-badge&logo=sqlite&logoColor=white&labelColor=0D0D0D)](https://www.sqlite.org/)
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Python-3.13-FF7A00?style=for-the-badge&logo=python&logoColor=white&labelColor=0D0D0D" alt="Python">
+  </a>
+  <a href="https://fastapi.tiangolo.com/">
+    <img src="https://img.shields.io/badge/FastAPI-Backend-FF7A00?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=0D0D0D" alt="FastAPI">
+  </a>
+  <a href="https://ai.google.dev/">
+    <img src="https://img.shields.io/badge/Google-Gemini-FF7A00?style=for-the-badge&logo=googlegemini&logoColor=white&labelColor=0D0D0D" alt="Google Gemini">
+  </a>
+  <a href="https://www.sqlite.org/">
+    <img src="https://img.shields.io/badge/SQLite-Database-FF7A00?style=for-the-badge&logo=sqlite&logoColor=white&labelColor=0D0D0D" alt="SQLite">
+  </a>
 
-<br/>
+  <br/>
 
-[**✨ Overview**](#-overview) &nbsp;•&nbsp;
-[**🚀 Features**](#-features) &nbsp;•&nbsp;
-[**🧱 Architecture**](#-architecture) &nbsp;•&nbsp;
-[**⚙️ Getting Started**](#️-getting-started) &nbsp;•&nbsp;
-[**🔌 API**](#-api-endpoints) &nbsp;•&nbsp;
-[**🧪 Testing**](#-testing)
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+    <img src="https://img.shields.io/badge/HTML5-Frontend-FF7A00?style=for-the-badge&logo=html5&logoColor=white&labelColor=0D0D0D" alt="HTML5">
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+    <img src="https://img.shields.io/badge/CSS3-Styling-FF7A00?style=for-the-badge&logo=css&logoColor=white&labelColor=0D0D0D" alt="CSS3">
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+    <img src="https://img.shields.io/badge/JavaScript-Frontend-FF7A00?style=for-the-badge&logo=javascript&logoColor=white&labelColor=0D0D0D" alt="JavaScript">
+  </a>
+  <a href="https://github.com/pavankammila/ConvoAI">
+    <img src="https://img.shields.io/badge/GitHub-Repository-FF7A00?style=for-the-badge&logo=github&logoColor=white&labelColor=0D0D0D" alt="GitHub">
+  </a>
+
+  <br/><br/>
+
+  [**✨ Overview**](#-overview) &nbsp;•&nbsp;
+  [**🚀 Features**](#-features) &nbsp;•&nbsp;
+  [**🧱 Architecture**](#-architecture) &nbsp;•&nbsp;
+  [**⚙️ Getting Started**](#️-getting-started) &nbsp;•&nbsp;
+  [**🔌 API**](#-api-endpoints) &nbsp;•&nbsp;
+  [**🧪 Testing**](#-testing)
 
 </div>
-
-<br/>
 
 ---
 
@@ -42,7 +68,7 @@ Powered by Google's Gemini API, ConvoAI keeps context across multiple turns, sto
 
 The project pairs a Python backend with a browser-based chat interface and serves as a practical implementation of real-world LLM application concepts.
 
-<br/>
+---
 
 ## 🚀 Features
 
@@ -99,7 +125,7 @@ The project pairs a Python backend with a browser-based chat interface and serve
   </tr>
 </table>
 
-<br/>
+---
 
 ## 🧱 Architecture
 
@@ -128,34 +154,77 @@ SQLite database (database.py)
   └── Messages
 ```
 
-### 📁 Project structure
+### 📁 Project Structure
 
 ```text
 ConvoAI/
 ├── assets/
-│   ├── convoai-logo-light.png   # Logo for light backgrounds
-│   └── convoai-logo-dark.png    # Logo for dark backgrounds
+│   ├── convoai-icon.png          # Application icon
+│   ├── convoai-logo-black.png    # Black logo variation
+│   ├── convoai-logo-outline.png  # Outline logo variation
+│   ├── convoai-logo-light.png    # Logo for light backgrounds
+│   └── convoai-logo-dark.png     # Logo for dark backgrounds
 ├── static/
-│   └── index.html               # Browser-based chat interface
-├── main.py                      # FastAPI app and HTTP endpoints
-├── chat_engine.py               # Conversation orchestration and context handling
-├── llm_client.py                # Gemini client integration
-├── database.py                  # SQLite persistence layer
-├── errors.py                    # Application error definitions
-├── test_gemini.py               # Gemini connectivity test
-├── test_chat_engine.py          # Multi-turn conversation tests
-├── test_context.py              # Context management tests
-├── test_fallback.py             # Summarization fallback tests
-├── test_database.py             # Database tests
-├── test_persistence.py          # Persistence and restoration tests
-├── .env.example                 # Example environment configuration
+│   └── index.html                # Browser-based chat interface
+├── main.py                       # FastAPI app and HTTP endpoints
+├── chat_engine.py                # Conversation orchestration and context handling
+├── llm_client.py                 # Gemini client integration
+├── database.py                   # SQLite persistence layer
+├── errors.py                     # Application error definitions
+├── test_gemini.py                # Gemini connectivity test
+├── test_chat_engine.py           # Multi-turn conversation tests
+├── test_context.py               # Context management tests
+├── test_fallback.py              # Summarization fallback tests
+├── test_database.py              # Database tests
+├── test_persistence.py           # Persistence and restoration tests
+├── .env.example                  # Example environment configuration
 ├── .gitignore
 └── README.md
 ```
 
-<br/>
+---
 
-## 🛠️ Tech Stack
+## 🧰 Technology Stack
+
+The project combines a Python-based backend, Google's Gemini API, SQLite persistence and a lightweight browser interface.
+
+<div align="center">
+
+  <h3>Core Technologies</h3>
+
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Python-FF7A00?style=for-the-badge&logo=python&logoColor=white&labelColor=0D0D0D" alt="Python">
+  </a>
+  <a href="https://fastapi.tiangolo.com/">
+    <img src="https://img.shields.io/badge/FastAPI-FF7A00?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=0D0D0D" alt="FastAPI">
+  </a>
+  <a href="https://ai.google.dev/">
+    <img src="https://img.shields.io/badge/Google%20Gemini-FF7A00?style=for-the-badge&logo=googlegemini&logoColor=white&labelColor=0D0D0D" alt="Google Gemini">
+  </a>
+  <a href="https://www.sqlite.org/">
+    <img src="https://img.shields.io/badge/SQLite-FF7A00?style=for-the-badge&logo=sqlite&logoColor=white&labelColor=0D0D0D" alt="SQLite">
+  </a>
+
+  <br/>
+
+  <h3>Frontend Technologies</h3>
+
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+    <img src="https://img.shields.io/badge/HTML5-FF7A00?style=for-the-badge&logo=html5&logoColor=white&labelColor=0D0D0D" alt="HTML5">
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+    <img src="https://img.shields.io/badge/CSS3-FF7A00?style=for-the-badge&logo=css&logoColor=white&labelColor=0D0D0D" alt="CSS3">
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+    <img src="https://img.shields.io/badge/JavaScript-FF7A00?style=for-the-badge&logo=javascript&logoColor=white&labelColor=0D0D0D" alt="JavaScript">
+  </a>
+  <a href="https://github.com/pavankammila/ConvoAI">
+    <img src="https://img.shields.io/badge/GitHub-FF7A00?style=for-the-badge&logo=github&logoColor=white&labelColor=0D0D0D" alt="GitHub">
+  </a>
+
+</div>
+
+### Stack Details
 
 | | Layer | Technology | Purpose |
 |:-:|---|---|---|
@@ -167,8 +236,9 @@ ConvoAI/
 | 🔐 | **Configuration** | python-dotenv | Load local environment variables |
 | 🎨 | **Frontend** | HTML, CSS, JavaScript | Chat user interface |
 | 🚀 | **Dev server** | Uvicorn | Run the FastAPI application |
+| 🐙 | **Version control** | GitHub | Source code hosting |
 
-<br/>
+---
 
 ## ⚙️ Getting Started
 
@@ -178,14 +248,14 @@ ConvoAI/
 - 🔑 A **Google Gemini API key**
 - 🌿 **Git**
 
-### 1️⃣ Clone the repository
+### 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/pavankammila/ConvoAI.git
 cd ConvoAI
 ```
 
-### 2️⃣ Create and activate a virtual environment
+### 2️⃣ Create and Activate a Virtual Environment
 
 **Windows PowerShell**
 
@@ -201,13 +271,13 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-### 3️⃣ Install dependencies
+### 3️⃣ Install Dependencies
 
 ```bash
 pip install fastapi uvicorn google-genai python-dotenv
 ```
 
-### 4️⃣ Configure environment variables
+### 4️⃣ Configure Environment Variables
 
 Copy `.env.example` to `.env`.
 
@@ -244,7 +314,7 @@ REQUEST_TIMEOUT=30
 > [!WARNING]
 > **Security:** Never commit `.env` or share your API key. The repository's `.gitignore` excludes local environment files and SQLite database files. Keep `.env.example` free of real credentials.
 
-### 5️⃣ Run the application
+### 5️⃣ Run the Application
 
 ```bash
 python -m uvicorn main:app --reload
@@ -260,12 +330,12 @@ Then open:
 
 The SQLite database is initialized by the application and stores conversation data locally.
 
-<br/>
+---
 
 ## 🔌 API Endpoints
 
 | Method | Endpoint | Purpose |
-|:-:|---|---|
+|---|---|---|
 | ![GET](https://img.shields.io/badge/GET-0D0D0D?style=flat-square&labelColor=FF7A00&color=0D0D0D) | `/` | Serve the chat interface |
 | ![GET](https://img.shields.io/badge/GET-0D0D0D?style=flat-square&labelColor=FF7A00&color=0D0D0D) | `/api` | API information |
 | ![GET](https://img.shields.io/badge/GET-0D0D0D?style=flat-square&labelColor=FF7A00&color=0D0D0D) | `/health` | Health check |
@@ -277,7 +347,7 @@ The SQLite database is initialized by the application and stores conversation da
 
 Interactive request and response schemas are available at `/docs` while the server is running.
 
-<br/>
+---
 
 ## 🧠 How Conversation Memory Works
 
@@ -296,7 +366,7 @@ ConvoAI maintains a separate message history for each conversation.
 
 This approach balances **continuity**, **context size** and **resilience**.
 
-<br/>
+---
 
 ## 🧪 Testing
 
@@ -321,7 +391,7 @@ python test_gemini.py
 > [!NOTE]
 > The live API test requires a valid API key and available model quota. Provider-side rate limits or temporary service errors can affect this test independently of the local unit tests.
 
-<br/>
+---
 
 ## 🔐 Security Notes
 
@@ -331,7 +401,7 @@ python test_gemini.py
 - ☁️ Before deploying publicly, configure secrets in the hosting provider's environment settings.
 - 🛡️ Review CORS, authentication, rate limiting and data-retention requirements before exposing the service to public users.
 
-<br/>
+---
 
 ## 🗺️ Roadmap
 
@@ -343,7 +413,7 @@ python test_gemini.py
 - [ ] 🧪 Add automated API and frontend integration tests
 - [ ] 🚦 Add usage limits and rate limiting for public deployments
 
-<br/>
+---
 
 ## 🤝 Contributing
 
@@ -355,21 +425,25 @@ Contributions, suggestions and bug reports are welcome.
 4. 📤 Push the branch: `git push origin feature/your-feature`
 5. 🔀 Open a pull request.
 
-<br/>
+---
 
 ## 👨‍💻 Author
 
 <div align="center">
 
-**Pavan Kumar**
+  <h3>Pavan Kumar</h3>
 
-B.Tech Computer Science & Engineering — AI & ML
+  B.Tech Computer Science & Engineering — AI & ML
 
-[![GitHub](https://img.shields.io/badge/GitHub-@pavankammila-FF7A00?style=for-the-badge&logo=github&logoColor=white&labelColor=0D0D0D)](https://github.com/pavankammila)
+  <br/>
+
+  <a href="https://github.com/pavankammila">
+    <img src="https://img.shields.io/badge/GitHub-@pavankammila-FF7A00?style=for-the-badge&logo=github&logoColor=white&labelColor=0D0D0D" alt="GitHub — pavankammila">
+  </a>
 
 </div>
 
-<br/>
+---
 
 ## 📄 License
 
@@ -379,14 +453,20 @@ No license has been added to this repository yet. Until a license is selected, r
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/convoai-logo-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="assets/convoai-logo-light.png">
-  <img src="assets/convoai-logo-light.png" alt="ConvoAI" width="220">
-</picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/convoai-logo-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="assets/convoai-logo-light.png">
+    <img src="assets/convoai-logo-light.png" alt="ConvoAI" width="190">
+  </picture>
 
-**Built with curiosity, code, and Gemini.**
+  <br/>
 
-⭐ If you find ConvoAI interesting, consider starring the repository.
+  **Built with curiosity, code, and Gemini.**
+
+  ⭐ If you find ConvoAI interesting, consider starring the repository.
+
+  <br/>
+
+  © 2026 ConvoAI · Built by Pavan Kumar
 
 </div>
