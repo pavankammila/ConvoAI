@@ -16,8 +16,14 @@ __pycache__/
 
 # SQLite databases
 *.db
+*.db-wal
+*.db-shm
+*.db-journal
 *.sqlite
 *.sqlite3
+
+# Logs
+*.log
 
 # Editor settings
 .vscode/
@@ -25,3 +31,7 @@ __pycache__/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Node.js
+node_modules/
+dist/
